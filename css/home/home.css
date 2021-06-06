@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:lightyellow;
+}
+nav{
+    background: white;
+    opacity: .9;
+    border-top: 1px solid grey;
+   
+}
+ nav a{
+            color: black;
+            font-size: 1.7rem;
+     
+           
+}
+ nav a:hover{
+            color: black;
+            font-size: 1.7rem;
+} 
+nav a:active{
+             color: black;
+            font-size: 1.7rem;
+ }
+.count{
+    width: 20px;
+    
+    height: 20px;
+    
+    background: red;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 30px;
+    z-index: 1;
+    margin-top: -4px;
+    border-radius: 200px;
+}
+.count p{
+    
+    font-weight: ;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    
+  
+}
+.mcount{
+    width: 20px;
+    
+    height: 20px;
+    
+      background: red;
+    padding-bottom: 10px;
+   cursor: pointer;
+    position: absolute;
+    margin-left: 33px;
+    z-index: 1;
+    margin-top: 5px;
+    border-radius: 200px;
+}
+.mcount p{
+    
+    font-weight: ;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    
+  
+}
+.ncount{
+    width: 20px;
+    
+    height: 20px;
+    
+      background: red;
+    padding-bottom: 10px;
+   cursor: pointer;
+    position: absolute;
+    margin-left: -2px;
+    z-index: 1;
+    margin-top: -2px;
+    border-radius: 200px;
+}
+.ncount p{
+    text-align: center;
+    font-weight: ;
+    color: white;
+    padding: 0px 2px;
+    font-size: 11px;
+    
+  
+}
+.community{
+    background: white;
+   
+}
+.community a{
+    text-decoration: none;
+    color: white;
+     width: 200px;
+    padding-bottom:  60px;
+    text-transform: uppercase;
+   
+    
+}
+.community .mainscroll{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    z-index: 1;
+    
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9933;
+  border-radius: 10px;
+}
+.community .scroll{
+    width: 200px;
+    height: 120px;
+   background: white;
+   color: black;
+    padding: 13px;
+    margin: 7px;
+    margin-top: 17px;
+    border-radius: 7px;
+    
+    
+}
+.community .a{
+   
+    background: url("../../community/cs/img/28156.jpg");
+    opacity: .9;
+     
+    
+}
+.community .a1{
+    background: url("../../community/img/civil.jpeg");
+  
+    opacity: .9;
+    
+}
+.community .a2{
+    background: url("../../community/img/info.jpeg");
+   
+    opacity: .9;
+    
+}
+.community .a3{
+     background: url("../../community/img/elec.jpeg");
+   
+    opacity: .9;
+}
+.community .a4{
+    background: url("../../community/img/electronics.jpeg");
+
+    opacity: .9;
+    
+}
+.community .a5{
+    background: url("../../community/img/mech.jpeg");
+     
+    opacity: .9;
+    
+}
+.community .a6{
+    background: url("../../community/img/info.jpeg");
+    opacity: .9;
+    
+}
+.post-section{
+    background-color:#ff9933;
+    
+    
+  
+}
+.post-section input{
+    border: 1px solid grey;
+    padding-left: 28px;
+    width: 90%;
+    border-radius: 4px;
+    
+    
+}
+.post-section label{
+    position: absolute;
+    left: 13%;
+    
+    color: grey;
+}
+.post-section .noti a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+}
+.post-section .noti a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.profile-pic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    background: #ff9933;
+    background: url("../img/img.png");
+    background-size: cover;
+    border: 2px solid white;
+   
+}
+
+
+.first-post-container{
+    background: white;
+} 
+
+
+.post-heading a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.post-heading a:hover{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    
+}
+.post-heading p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 33px;
+    margin-top: -12px;
+}
+.post-heading span{
+    float: right;
+    margin-top: -60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main_post{
+   
+   
+    
+}
+.main_post img{
+    
+}
+.post-action{
+    border-top: 1px solid #D3D3D3;
+   
+   
+   
+}
+.active{
+    background: #4d79ff;
+    color: white;
+    border-radius: 7px;
+}
+.active a{
+    color: white;
+   
+    
+}
+.likenumber p{
+    font-size: 13px;
+}
+.post-input a{
+    color: black;
+    text-decoration: none;
+}
+.post-input a:hover{
+    color: black;
+    text-decoration: none;
+}
+.liked{
+    color: #ff9933;
+}
+.unliked{
+    color: black;
+}
+.number{
+    border: none;
+   
+    width: 10px;
+}
+.filer div{
+    width: 400px;
+    height: 200px;
+    background: red;
+    margin: 10px;
+    
+    
+}
+.comm a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    
+}
+.comm a:hover{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    
+}
+.bar-btn{
+    
+      
+}
+.bar-btn a{
+   height: 60px;
+    border-bottom: 2px solid grey;
+    margin-top: 10px;
+    background: white;
+    width:100%;
+    padding-left:10px;
+  
+}
+.bar-btn  a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    
+}
+
+.bar-btn a:hover{
+    background-color:lightblue;
+}
+.bar-btn .logout{
+   
+}
+.bars-head{
+    background: #ff9933;
+      
+}
+.bars-head a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  
+    
+}
+.editpost{
+    
+      
+    
+ 
+}
+.editpost li{
+    list-style: none;
+    
+}
+.caret{
+    width: 10px;
+    height: 10px;
+    
+    transform: rotate(45deg);
+    position: relative;
+    top: 28px;
+    background: white;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    z-index: 1;
+}
+.noti-result img{
+    width: 30px;
+    height: 30px;
+    background: #ff9933;
+    border-radius: 200px;
+}
+.noti-result a{
+    color: black;
+    text-decoration: none;
+}
+.noti-result a:hover{
+    color: black;
+    text-decoration: none;
+}

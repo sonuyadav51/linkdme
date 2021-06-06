@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #999;
+}
+.nav{
+    background: #ff9933;
+}
+.head a{
+    color: white;
+    text-decoration: none;
+}
+.head h6{
+    color: white;
+    position: absolute;
+    left: 40%;
+}
+.changepwd{
+    position: absolute;
+    top: 20%;
+    
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+    background: white;
+}
+.changepwd:hover{
+    background: lightblue;
+}
+
+.changepwd a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.setting{
+    padding: 10px;
+    font-size: 3rem;
+    color: white;
+    font-family:cursiv;
+    font-weight: bold;
+}
+.info{
+    margin-top: 100px;
+}

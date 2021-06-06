@@ -1,0 +1,67 @@
+.head a{
+    color: white;
+    text-decoration: none;
+}
+.head h6{
+    color: white;
+    position: absolute;
+    left: 40%;
+}
+.img img{
+    width: 55px;
+    height: 55px;
+    border-radius: 200px;
+}
+table  a{
+    color: black;
+    text-decoration: none;
+}
+table a:hover{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    background:white;
+    opacity: .9;
+    border-top: 1px solid grey;
+}
+ nav a{
+            color: black;
+            font-size: 1.7rem;
+    }
+nav a:hover{
+            color: black;
+            font-size: 1.7rem;
+        }
+nav a:active{
+             color: black;
+            font-size: 1.7rem;
+}
+.hed{
+    background: white;
+    margin-top: 60px;
+}
+.com{
+    border:1px solid grey;
+    
+}
+.hed  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.hed a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+   
+}
+.rqs{
+    background: white;
+    border-bottom: 1px solid grey;
+}
+        

@@ -1,0 +1,45 @@
+.head a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+body li{
+    list-style:disc;
+}
+.nav{
+    background: #ff9933;
+}
+.head h6{
+    position: relative;
+    left: 200%;
+    color: white;
+}
+.right{
+    position: relative;
+    left: 150%;
+}
+
+.edit-pencil{
+    position: relative;
+    left: 65%;
+}
+.edit-pencil a{
+    color: black;
+    text-decoration: none;
+}
+table a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.worl-ul{
+    width: 100%;
+}
+.work-li{
+    list-style: none;
+    width: 100%;
+    margin-left: -20px;
+}

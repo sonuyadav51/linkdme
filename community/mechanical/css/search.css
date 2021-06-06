@@ -1,0 +1,19 @@
+.nav{
+    background: #ff9933;
+} 
+
+body{
+    background: #fff;
+}
+.head a{
+    color: white;
+    text-decoration: none;
+}
+.head h6{
+    color: white;
+    position: absolute;
+    left: 40%;
+}
+.sent{
+    color:red;
+}

@@ -1,0 +1,5 @@
+[02-Oct-2019 07:03:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/nkryt0q6u0jr/public_html/test/About/databases/PHPMailerAutoload.php on line 45
+[02-Oct-2019 07:10:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/nkryt0q6u0jr/public_html/test/About/databases/PHPMailerAutoload.php on line 45
+[03-Oct-2019 08:59:33 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/nkryt0q6u0jr/public_html/test/About/databases/PHPMailerAutoload.php on line 45
+[07-Oct-2019 13:30:19 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/nkryt0q6u0jr/public_html/test/About/databases/PHPMailerAutoload.php on line 45
+[07-Oct-2019 17:08:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/nkryt0q6u0jr/public_html/test/About/databases/PHPMailerAutoload.php on line 45

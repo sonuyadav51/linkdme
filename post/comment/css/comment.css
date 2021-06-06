@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #d3d3d3;
+}
+.nav{
+    background:#ff9933 !important;
+}
+.head a{
+    color: white;
+}
+.head h6{
+    color: white;
+    margin-left: 160px;
+}
+.post-heading{
+   
+}
+.post-heading a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.post-heading a:hover{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    
+}
+.post-heading p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 59px;
+    margin-top: -12px;
+}
+.profile-pic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    background: grey;
+}
+.post-content{
+    background: white;
+    
+}
+.post-content img{
+    border-radius: 7px;
+}
+.post{
+    border-bottom: 1px solid silver;
+    
+}
+.comment-section{
+     border-bottom: 1px solid silver;
+    padding-bottom: 7px;
+}
+.comment-section textarea{
+   width: 100%;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 4px;
+    overflow: hidden;
+    
+}
+.comment-section textarea:focus{
+    outline: none;
+}
+.single{
+    background: white;
+}
+.comment-text{
+    background: lightblue;
+    opacity: .9;
+    color:black;
+    border-radius: 10px;
+}
+.comment-action{
+    color:;
+}
+.pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    background: red;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    background: red;
+}
+.main_post{
+    width: 100%;
+}
+.reply{
+    cursor: pointer;
+}
+.replybox{
+    border-radius: 7px;
+    border: 1px solid black;
+    padding: 6px;
+    overflow: hidden; 
+}

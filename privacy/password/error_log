@@ -1,0 +1,2 @@
+[27-Sep-2019 18:39:27 UTC] PHP Notice:  Undefined index: uid in /home/nkryt0q6u0jr/public_html/test/home/password/resetpwd.php on line 10
+[27-Sep-2019 18:39:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/nkryt0q6u0jr/public_html/test/home/password/resetpwd.php on line 13

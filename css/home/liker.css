@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+ 
+
+body{
+    background: #ccc;
+}
+.nav{
+    background: #ff9933;
+}
+.head a{
+    color: white;
+    text-decoration: none;
+}
+.head h6{
+    color: white;
+    position: absolute;
+    left: 40%;
+}
+.left a{
+    color: white;
+}
+.main{
+    background: white;
+    box-shadow: 0px 10px 10px rgba(0,0,0,.2);
+}
+
+.main a{
+    text-decoration: none;
+    color: black;
+}
+.main a:hover{
+    text-decoration: none;
+    color: black;
+}
+.profile img{
+    width: 70px;
+    height: 70px;
+    background:#ff9933;
+    border-radius: 5px;
+}

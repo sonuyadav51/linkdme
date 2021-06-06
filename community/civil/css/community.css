@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:grey;
+    color: ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.head {
+    height: 300px;
+    background: url("../../img/civil.jpeg");
+    background-repeat: none;
+    background-size: cover;
+   
+}
+h1{
+    
+   color:white;
+    font-family: cursive;
+    text-shadow: 10px 10px 10px black;
+   
+
+   
+}
+.search input{
+    height: 40px;
+    background-color: black;
+    border: 2px solid black;
+    color: green;
+    width: 100%;
+    outline: none;
+    padding-left: 45px;
+    position: relative;
+}
+.serc:focus{
+    outline: none !important;
+    border: none;
+}
+.search input:focus{
+    height: 40px;
+    background-color: black;
+    
+    color: green;
+    outline: none !important;
+    border: none;
+}
+.search-box {
+    color: white;
+    background: black;
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    left: 6%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.ser{
+    background: black;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    opacity: .9;
+    border-radius: 7px;
+}
+.one{
+    background: white;
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 10px 10px rgba(0,0,0,.2);
+}
+.one .img{
+    width: 110px;
+    height: 110px;
+    background: grey;
+    border-radius: 7px;
+    float: left;
+}
+.one .img img{
+     width: 110px; 
+    height: 110px;
+    
+    border-radius: 7px;
+    float: left;
+}

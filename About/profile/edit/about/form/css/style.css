@@ -1,0 +1,12 @@
+
+.head h6{
+    position: relative;
+    left: 290%;
+    color: white;
+}
+body li{
+    list-style: none;
+}
+.nav{
+  background: #ff9933;
+}

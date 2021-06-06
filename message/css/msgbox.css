@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.jumbo{
+   !important;
+}
+.msgbox{
+   
+   background-color: lightblue;
+    width: 100%;
+}
+.sender img{
+    float: left;
+}
+.jumbo{
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: white;
+    
+    
+}
+.reciver{
+    position: absolute;
+}
+.reciever img{
+    position: relative;
+    left: 85%;
+    top: 10%;
+}
+.reciever .jumbo{
+ 
+margin-top: 50px;
+}
+.msginput textarea{
+    width: 100%;
+   height: 60px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}

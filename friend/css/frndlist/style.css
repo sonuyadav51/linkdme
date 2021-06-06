@@ -1,0 +1,46 @@
+body{
+    background: #ccc;
+}
+.nav{
+    background: #ff9933;
+}
+.head a{
+    color: white;
+    text-decoration: none;
+}
+.head h6{
+    color: white;
+    position: absolute;
+    left: 40%;
+}
+.img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    
+    
+    
+    
+}
+table a{
+    
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+table a:hover{
+    text-decoration: none;
+    color: black;
+}
+table tr{
+    z-index: -1;
+}
+#unfriend{
+    z-index: 999;
+    
+    margin-top: -20px;
+    background: grey;
+}
+.btnMenu{
+    z-index: 1;
+}

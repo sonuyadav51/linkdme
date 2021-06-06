@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pic{
+    width:100px;
+    height: 100px;
+    background: red;
+    border-radius: 7px;
+}
+.pic img{
+    width:100px;
+    height: 100px;
+    background: red;
+    border-radius: 7px;
+}
+.title a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+.title a:hover{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}

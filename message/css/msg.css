@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.chat-body input:focus{
+    outline: none;
+     
+}

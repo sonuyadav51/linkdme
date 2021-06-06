@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+   
+}
+nav span a{
+    color: white;
+}
+nav span a:hover{
+    color: white;
+}
+nav h5{
+    color: white;
+}
+nav{
+    background: #ff9933;
+}
