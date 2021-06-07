@@ -41,7 +41,8 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
     $pcstore = '../../About/profile_pic/'.$filename;
     move_uploaded_file($tempname,  $pcstore);
     $name_valid = $email_valid = $roll_valid = $pwd_valid = false;
-
+    echo $pwd;
+    echo $roll;
 // validate name //
 
     if(!empty($name)){
@@ -113,8 +114,7 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
                           
         }
     
-    echo $pwd;
-echo $roll;
+
 
           if($name_valid && $email_valid && $roll_valid && $pwd_valid){
            $check = "select * from `student_detail` where `email` = '$email' or `roll_no` = $roll";
