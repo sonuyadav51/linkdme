@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-error_reporting(0);
+
    include('databases/dbconn.php');
      session_start();
      $uid =$_GET['id'] ;
