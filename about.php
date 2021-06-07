@@ -21,7 +21,7 @@
     
 ?>
 
-
+<?php include('query.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
