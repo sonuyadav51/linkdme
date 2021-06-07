@@ -1,13 +1,17 @@
 <?php 
  error_reporting(0); 
-$conn = mysqli_connect('localhost','root','','linkdmeknit');  
+ $host ='remotemysql.com';
+ $user ='sQCh2RxZz4';
+ $pwd='Y0ZIrGpfkq';
+ $db ='sQCh2RxZz4';
+ $conn = mysqli_connect($host,$user,$pwd,$db);
 
-if($conn == true){
-  
-}
-else{
-    echo("connection failed !!");
-}
+ if($conn == true){
+
+ }
+ else{
+     echo("connection failed !!");
+ }
   
 
 function fetch_user_last_activity($user_id,$conn){
