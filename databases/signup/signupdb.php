@@ -40,80 +40,80 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
     //echo $filename;
     $pcstore = '../../About/profile_pic/'.$filename;
     move_uploaded_file($tempname,  $pcstore);
-    $name_valid = $email_valid = $roll_valid = $pwd_valid = false;
+//     $name_valid = $email_valid = $roll_valid = $pwd_valid = false;
 
 // validate name //
 
-    if(!empty($name)){
-        if(strlen($name)>2 && strlen($name)<=30){
-            if(!preg_match('/[^a-zA-Z\s]/',$name)){
-                //all test pass//
-                $name_valid=true;
-                echo"name is valid <br>";
-            }else{
-                echo "name is not valid";
-            }
-        }
-        else{
-            echo"name must be between 2 to 30 chars long..<br>";
-        }
+//     if(!empty($name)){
+//         if(strlen($name)>2 && strlen($name)<=30){
+//             if(!preg_match('/[^a-zA-Z\s]/',$name)){
+//                 //all test pass//
+//                 $name_valid=true;
+//                 echo"name is valid <br>";
+//             }else{
+//                 echo "name is not valid";
+//             }
+//         }
+//         else{
+//             echo"name must be between 2 to 30 chars long..<br>";
+//         }
         
-    }
-    else{
-        echo"name can not be blank<br>";
-    }
+//     }
+//     else{
+//         echo"name can not be blank<br>";
+//     }
                       
-//email validate
-    if(!empty($email)){
-       //ALL TEST PASS
-        $email_valid = true;
-        echo"email is valid<br>";
+// //email validate
+//     if(!empty($email)){
+//        //ALL TEST PASS
+//         $email_valid = true;
+//         echo"email is valid<br>";
         
-    }
-    else{
-          echo "email can not be blank <br>";                
-         }
-    //mobile validation
-    if(!empty($roll)){
-        if( strlen($roll)>9){
-          if(!preg_match('/^[0-9]{10}$/')){
-                //all test pass//
-                $roll_valid=true;
-                echo"mobile  is valid <br>";
+//     }
+//     else{
+//           echo "email can not be blank <br>";                
+//          }
+//     //mobile validation
+//     if(!empty($roll)){
+//         if( strlen($roll)>9){
+//           if(!preg_match('/^[0-9]{10}$/')){
+//                 //all test pass//
+//                 $roll_valid=true;
+//                 echo"mobile  is valid <br>";
            
-             }else{
-              echo "mobile is not valid";
-          }
+//              }else{
+//               echo "mobile is not valid";
+//           }
           
-        }
-        else{
-            echo"mobile greater than 9..<br>";
-        }
+//         }
+//         else{
+//             echo"mobile greater than 9..<br>";
+//         }
         
-    }
-    else{
-        echo"mobile can not be blank<br>";
-    }
+//     }
+//     else{
+//         echo"mobile can not be blank<br>";
+//     }
      
-      //password validation
-    if(!empty($pwd)){
-        if(strlen($pwd)>=5 && strlen($pwd)<=15){
-            //all test pass
-            $pwd_valid = true;
-            $pwd = md5($pwd);
-            echo"password is valid";
+//       //password validation
+//     if(!empty($pwd)){
+//         if(strlen($pwd)>=5 && strlen($pwd)<=15){
+//             //all test pass
+//             $pwd_valid = true;
+//             $pwd = md5($pwd);
+//             echo"password is valid";
             
-        }
-        else{
-            echo"password must be between 5 to 15 chars long..<br>";
-        }
-    }
-    else{
-        echo"password can not blank<br>";
+//         }
+//         else{
+//             echo"password must be between 5 to 15 chars long..<br>";
+//         }
+//     }
+//     else{
+//         echo"password can not blank<br>";
                           
-        }
+//         }
 
-           if($name_valid && $email_valid && $roll_valid && $pwd_valid){
+//            if($name_valid && $email_valid && $roll_valid && $pwd_valid){
            $check = "select * from student_detail where email = '$email' or roll_no = $roll";
            $checkfire = mysqli_query($conn,$check);
            $num = mysqli_num_rows($checkfire);
@@ -134,10 +134,10 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
                    
                    
                      header("Location:../../Login/index.php");
-                }else{
-                     header("Location:../../index.php?invalid=somrthinf");   
+//                 }else{
+//                      header("Location:../../index.php?invalid=somrthinf");   
                     
-                }
+//                 }
                
            }        
     
