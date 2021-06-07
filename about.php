@@ -21,6 +21,28 @@
     
 ?>
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   <meta name="description" content="A large community of student from all over the world.Linkdme is helping one student to connect with other student.">
+   <meta name="keywords" content="Linkdme,facebook,instagram,twitter,linkeden,social media,engineering,student">
+ 
+    <title> <?php echo $ndata['name']; ?></title>
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="source/css/bootstrap.css">
+    <!--fontawesome css-->
+    <link rel="stylesheet" href="source/css/all.min.css">
+    <!--my css-->
+    <link rel="stylesheet" href="css/about/about.css">
+    <script src="source/js/jquery-3.3.1.js"></script>
+</head>
 <?php 
  
 
@@ -117,28 +139,6 @@
     
 
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-   <meta name="description" content="A large community of student from all over the world.Linkdme is helping one student to connect with other student.">
-   <meta name="keywords" content="Linkdme,facebook,instagram,twitter,linkeden,social media,engineering,student">
- 
-    <title> <?php echo $ndata['name']; ?></title>
-    <!--bootstrap css-->
-    <link rel="stylesheet" href="source/css/bootstrap.css">
-    <!--fontawesome css-->
-    <link rel="stylesheet" href="source/css/all.min.css">
-    <!--my css-->
-    <link rel="stylesheet" href="css/about/about.css">
-    <script src="source/js/jquery-3.3.1.js"></script>
-</head>
-
 <body style="background:lightyellow;">
    
 
