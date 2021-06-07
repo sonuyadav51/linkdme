@@ -112,6 +112,9 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
         echo"password can not blank<br>";
                           
         }
+    
+    echo $pwd;
+echo $roll;
 
           if($name_valid && $email_valid && $roll_valid && $pwd_valid){
            $check = "select * from `student_detail` where `email` = '$email' or `roll_no` = $roll";
