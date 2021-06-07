@@ -41,7 +41,7 @@
                  
                 
                
-            <form action="databases/signup/sign.php" method="POST" enctype="multipart/form-data">
+            <form action="databases/signup/signdb.php" method="POST" enctype="multipart/form-data">
                  <div class="input-box">
                      
                             <?php if(isset($_GET['invalid'])){ ?>  
