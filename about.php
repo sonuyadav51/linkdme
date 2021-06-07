@@ -22,7 +22,7 @@
 ?>
 
 <?php 
- error_reporting(0);
+ 
 
  
    $query = "SELECT * FROM work WHERE wid=$uid ORDER BY id DESC";
