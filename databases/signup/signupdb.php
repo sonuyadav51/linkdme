@@ -134,16 +134,15 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
                    
                    
                      header("Location:../../Login/index.php");
-//                 }else{
-//                      header("Location:../../index.php?invalid=somrthinf");   
+                }else{                      header("Location:../../index.php?invalid=somrthinf");   
                     
-//                 }
+                }
                
            }        
     
-                 }else{
-                    header("Location:../../index.php?invalid=invalid data submission !!please fill all data carefully.");
-                  }
+//                  }else{
+//                     header("Location:../../index.php?invalid=invalid data submission !!please fill all data carefully.");
+//                   }
     
     
    
