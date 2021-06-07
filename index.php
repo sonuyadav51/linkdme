@@ -1,7 +1,4 @@
-<?php 
-  header("Location:https://sonu-linkdme.herokuapp.com/Login/index.php");
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
