@@ -40,7 +40,8 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
     //echo $filename;
     $pcstore = '../../About/profile_pic/'.$filename;
     move_uploaded_file($tempname,  $pcstore);
-    $name_valid = $email_valid = $roll_valid = $pwd_valid = false;
+    $name_valid = $email_valid = false;
+    $pwd = md5($pwd);
     echo $pwd;
     echo $roll;
 // validate name //
@@ -75,48 +76,48 @@ $branch =  strip_tags(mysqli_real_escape_string($conn,trim($_REQUEST['branch']))
           echo "email can not be blank <br>";                
          }
     //mobile validation
-    if(!empty($roll)){
-        if( strlen($roll)>9){
-          if(!preg_match('/^[0-9]{10}$/')){
-                //all test pass//
-                $roll_valid=true;
-                echo"mobile  is valid <br>";
+//     if(!empty($roll)){
+//         if( strlen($roll)>9){
+//           if(!preg_match('/^[0-9]{10}$/')){
+//                 //all test pass//
+//                 $roll_valid=true;
+//                 echo"mobile  is valid <br>";
            
-             }else{
-              echo "mobile is not valid";
-          }
+//              }else{
+//               echo "mobile is not valid";
+//           }
           
-        }
-        else{
-            echo"mobile greater than 9..<br>";
-        }
+//         }
+//         else{
+//             echo"mobile greater than 9..<br>";
+//         }
         
-    }
-    else{
-        echo"mobile can not be blank<br>";
-    }
+//     }
+//     else{
+//         echo"mobile can not be blank<br>";
+//     }
      
-      //password validation
-    if(!empty($pwd)){
-        if(strlen($pwd)>=5 && strlen($pwd)<=15){
-            //all test pass
-            $pwd_valid = true;
-            $pwd = md5($pwd);
-            echo"password is valid";
+//       //password validation
+//     if(!empty($pwd)){
+//         if(strlen($pwd)>=5 && strlen($pwd)<=15){
+//             //all test pass
+//             $pwd_valid = true;
+//             $pwd = md5($pwd);
+//             echo"password is valid";
             
-        }
-        else{
-            echo"password must be between 5 to 15 chars long..<br>";
-        }
-    }
-    else{
-        echo"password can not blank<br>";
+//         }
+//         else{
+//             echo"password must be between 5 to 15 chars long..<br>";
+//         }
+//     }
+//     else{
+//         echo"password can not blank<br>";
                           
-        }
+//         }
     
 
 
-          if($name_valid && $email_valid && $roll_valid && $pwd_valid){
+          if($name_valid && $email_valid){
            $check = "select * from `student_detail` where `email` = '$email' or `roll_no` = $roll";
            $checkfire = mysqli_query($conn,$check);
            $num = mysqli_num_rows($checkfire);
